@@ -114,4 +114,4 @@ const TaskManager = () => {
   );
 };
 
-export {TaskManager,useTaskStore};
+export default TaskManager;

@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
-import TaskManager from './components/Task/Task';
 import UserForm from './components/UserForm/UserForm';
+import TaskManager from './components/Task/Task';
 
 export default function Home() {
 
