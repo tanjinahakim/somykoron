@@ -26,6 +26,7 @@ const useFormStore = create<FormState>((set) => ({
 
 const Form = () => {
   const { formData, setFormData, submitForm } = useFormStore();
+  const [errorMessage, setErrorMessage] = React.useState('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -58,7 +59,7 @@ const Form = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          placeholder='Enter your name'
+          placeholder='Enter your age'
           required
           className="w-full border border-gray-400 p-2 rounded focus:outline-none focus:border-blue-500"
         />

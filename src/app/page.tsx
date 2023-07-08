@@ -6,7 +6,7 @@ import Task from './components/Task/Task';
 export default function Home() {
 
   return (
-    <div className='text-center max-w-5xl'>
+    <div className='text-center bg-slate-300'>
       <Task/>
       <UserForm/>
     </div>
