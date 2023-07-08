@@ -98,7 +98,7 @@ const TaskForm = () => {
   );
 };
 
-const TaskManager = () => {
+const Task= () => {
   return (
     <div className="container mx-auto p-8">
       <h1 className="text-3xl font-bold mb-8">Task Manager</h1>
@@ -114,4 +114,4 @@ const TaskManager = () => {
   );
 };
 
-export default TaskManager;
+export default Task;
